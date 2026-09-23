@@ -29,6 +29,10 @@ Mainnet opened 2026-09-16. PRs welcome.
   Uniswap v4 pools (LP locked forever) with an optional progressive bonding-curve mode.
   All contracts Sourcify-verified · [agent skill](https://github.com/solonlend/solonpad-skill)
   lets AI agents launch and trade without the site.
+- [Phlece](https://phlece.fun) — USDC-native bonding-curve launchpad; 0% buy / 1.5% sell,
+  85% of the sell fee routed to the token's creator, real-time USDC holder yield.
+  Graduates into a permanently-locked Uniswap v4 LP at $69K raised. Factory and
+  graduation-locker contracts Sourcify-verified; platform token PHLECE.
 - [minara.fun](https://minara.fun) — launchpad built on the UERC20 factory with a custom
   fee hook; platform token Minara.
 - [bozo.fun](https://bozo.fun) — launchpad; platform token BOZO.
