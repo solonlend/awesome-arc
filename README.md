@@ -27,8 +27,11 @@ Mainnet opened 2026-09-16. PRs welcome.
 
 - [SolonPad](https://solonpad.fun) — USDC-native launchpad; tokens are born directly in
   Uniswap v4 pools (LP locked forever) with an optional progressive bonding-curve mode.
-  All contracts Sourcify-verified · [agent skill](https://github.com/solonlend/solonpad-skill)
+  Launch contracts Sourcify-verified · [agent skill](https://github.com/solonlend/solonpad-skill)
   lets AI agents launch and trade without the site.
+  [SOLON staking](https://solonpad.fun/stake) streams the daily platform-fee buyback to
+  stakers over 7 days; no lock, no cooldown
+  ([source](https://github.com/solonlend/solonpad-contracts/tree/main/src/stake)).
 - [minara.fun](https://minara.fun) — launchpad built on the UERC20 factory with a custom
   fee hook; platform token Minara.
 - [bozo.fun](https://bozo.fun) — launchpad; platform token BOZO.
