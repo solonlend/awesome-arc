@@ -27,7 +27,7 @@ Mainnet opened 2026-09-16. PRs welcome.
 
 - [SolonPad](https://solonpad.fun) — USDC-native launchpad; tokens are born directly in
   Uniswap v4 pools (LP locked forever) with an optional progressive bonding-curve mode.
-  Launch contracts Sourcify-verified · [agent skill](https://github.com/solonlend/solonpad-skill)
+  Instant-v4 launch and staking contracts Sourcify-verified · [agent skill](https://github.com/solonlend/solonpad-skill)
   lets AI agents launch and trade without the site.
   [SOLON staking](https://solonpad.fun/stake) streams the daily platform-fee buyback to
   stakers over 7 days; no lock, no cooldown
