@@ -42,11 +42,18 @@ Mainnet opened 2026-09-16. PRs welcome.
 - [DexScreener — Arc](https://dexscreener.com/arc)
 - [GMGN — Arc](https://gmgn.ai/?chain=arc)
 - [DefiLlama](https://defillama.com) — chain key `arc`
+- [Arc x402 Explorer](https://apexfaucet.xyz/arc/x402/) — every signed agent payment on Arc, read from the
+  chain: EIP-3009 settlements and Circle Gateway batches, by facilitator and seller
+- [Arc Exit Check](https://apexfaucet.xyz/arc/exit-check/) — paste a token: a buy and sell round trip through its
+  pool, simulated in one `eth_call`, says whether you can get out and what it costs
 
 ## Bridges & on-ramps
 
 - [Relay](https://relay.link) — fast RH/EVM ↔ Arc transfers and same-chain swaps API
 - [LI.FI](https://li.fi) — aggregated routes to Arc (choose non-intent bridges for speed)
+- [APEX Faucet](https://apexfaucet.xyz/arc/) — free USDC on Arc mainnet, claimed with a signature (no gas
+  needed) · faucet contract [`0x53fb2e89834050afaa9b3090a1fc9d1064615805`](https://explorer.arc.io/address/0x53fb2e89834050afaa9b3090a1fc9d1064615805),
+  [source](https://apexfaucet.xyz/arc/ApexFaucetArc.sol)
 
 ## Agent tooling
 
@@ -54,6 +61,11 @@ Mainnet opened 2026-09-16. PRs welcome.
   launching/trading on SolonPad: pinned addresses, ABIs, READ→VERIFY→USE call sequences
 - [arcpay](https://github.com/Puneethkumarck/arcpay) — open-source payment protocol on Arc
   for AI-agent payments
+- [Arc Agent Passport](https://apexfaucet.xyz/arc/passport/) — an ERC-8004 identity for any agent: writes,
+  checks and hosts the registration-v1 file, then the owner's own wallet sends `register()` (about 0.004 USDC
+  of gas); an agent that can only sign pays $0.99 over x402 · [source (MIT)](https://github.com/apexfaucet-hub/arc-agent-passport)
+- [Arc Agent Watchtower](https://apexfaucet.xyz/arc/agents/) — every agent in Arc's ERC-8004 registry called once
+  an hour: uptime, response time, whether a standard client can pay it on Arc, and what to fix
 
 ## Contributing
 
