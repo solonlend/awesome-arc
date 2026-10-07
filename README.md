@@ -35,6 +35,12 @@ Mainnet opened 2026-09-16. PRs welcome.
 - [minara.fun](https://minara.fun) — launchpad built on the UERC20 factory with a custom
   fee hook; platform token Minara.
 - [bozo.fun](https://bozo.fun) — launchpad; platform token BOZO.
+- [Mixpad](https://mixpad.fun) — meme token launchpad on Uniswap v4; tokens launch
+  directly into live v4 pools (no bonding curve) with a shared hook that handles
+  buybacks, auto-liquidity, and gold dividend distribution (XAUm) fully in-swap.
+  Factory `0x0EbA79fF2Feb718EC07536D3Bf42F6fD0Bf54057` · contracts verified on
+  ArcExplorer. Supports on-chain communities, idea pre-registration (IdeaRegistry),
+  and X profile linking.
 
 ## Data & aggregators
 
