@@ -54,6 +54,9 @@ Mainnet opened 2026-09-16. PRs welcome.
   launching/trading on SolonPad: pinned addresses, ABIs, READ→VERIFY→USE call sequences
 - [arcpay](https://github.com/Puneethkumarck/arcpay) — open-source payment protocol on Arc
   for AI-agent payments
+- [Lumen Tab](https://github.com/Dansgit2b/lumen-tab) — prepaid USDC tabs for pay-per-call
+  agent APIs: signed EIP-712 vouchers per call, one settlement tx; contract
+  [`0xb4a0…2B50`](https://explorer.arc.io/address/0xb4a0364c58B2DF53e25FfF0463B5434160Ed2B50) (Sourcify exact match)
 
 ## Contributing
 
